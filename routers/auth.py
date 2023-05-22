@@ -12,8 +12,13 @@ from depedences.common import RequiredRoles, get_raw_token
 from errors import ForbiddenError
 from models.token import TokenData, TokensResp, TokenType
 from models.user import DBUser, EditableUserBase, User, UserBase, UserRole
-from schema import (CreateUserReq, ExpireTokenReq, LoginByEmailReq,
-                    UpdateUserAdminReq, UpdateUserReq)
+from schema import (
+    CreateUserReq,
+    ExpireTokenReq,
+    LoginByEmailReq,
+    UpdateUserAdminReq,
+    UpdateUserReq,
+)
 from utils.jwt_service import jwt_service
 
 load_dotenv(".env")
