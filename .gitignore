@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+
+/lib/
+/bin/
+/.idea/
+/alembic/versions/62bd9fb3ce1e_new_migration.py
